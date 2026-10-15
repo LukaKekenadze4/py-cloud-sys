@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "s3-tool"
+version = "0.1.0"
+description = "CLI tool for working with S3 buckets"
+authors = ["kekena <kekeluka20@gmail.com>"]
+packages = [{ include = "s3_tool.py" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "*"
+python-dotenv = "*"
+puremagic = "*"
+
+[tool.poetry.scripts]
+s3-tool = "s3_tool:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
