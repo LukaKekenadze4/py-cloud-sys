@@ -1,4 +1,4 @@
-# Run: set -a; source .env; set +a; python L2/TASK_3/delete_bucket.py my-bucket-name
+# Run: set -a; source .env; set +a; python L2/T3/delete_bucket.py my-bucket-name
 
 import argparse
 

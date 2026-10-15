@@ -1,4 +1,4 @@
-# Run: python L1/TASK_3/train_seats.py 3 25
+# Run: python L1/T3/train_seats.py 3 25
 
 import argparse
 

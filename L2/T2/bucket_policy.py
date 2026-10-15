@@ -1,4 +1,4 @@
-# Run: set -a; source .env; set +a; python L2/TASK_2/bucket_policy.py my-bucket-name
+# Run: set -a; source .env; set +a; python L2/T2/bucket_policy.py my-bucket-name
 
 import argparse
 import json

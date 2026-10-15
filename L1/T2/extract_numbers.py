@@ -1,4 +1,4 @@
-# Run: python L1/TASK_2/extract_numbers.py "abc 12 3.5 7"
+# Run: python L1/T2/extract_numbers.py "abc 12 3.5 7"
 
 import argparse
 import re

@@ -1,4 +1,4 @@
-# Run: python L1/TASK_1/armstrong.py
+# Run: python L1/T1/armstrong.py
 
 import argparse
 
