@@ -1,4 +1,4 @@
-# Run: poetry run s3-tool --help   (credentials are read from .env)
+# Run: cd L2/TASK_4; poetry run s3-tool --help   (credentials are read from the .env in the project root)
 
 import argparse
 import io
