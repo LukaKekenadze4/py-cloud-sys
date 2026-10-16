@@ -28,7 +28,6 @@ if args.vs:
 
 if args.lv or args.rp:
     response = s3.list_object_versions(Bucket=args.bucket_name, Prefix=args.key)
-    # newest first; Prefix also matches other files, so keep only the exact key
     versions = [v for v in response.get("Versions", []) if v["Key"] == args.key]
 
 if args.lv:
